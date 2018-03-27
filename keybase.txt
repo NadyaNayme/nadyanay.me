@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/nadya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nadyanay.me
+  * I am nadya (https://keybase.io/nadya) on keybase.
+  * I have a public key ASDlT3QlGNZvMtCcuPpgtmM2lGZjO5syMY9D5uEwGocPvQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019bba75c375d941e688a9aa076b22bb22f47193b7101963f93b6d95e8d3df248d0a",
+            "host": "keybase.io",
+            "kid": "0120e54f742518d66f32d09cb8fa60b663369466633b9b32318f43e6e1301a870fbd0a",
+            "uid": "42ff8b4206336d9e189e1a9750c03519",
+            "username": "nadya"
+        },
+        "service": {
+            "hostname": "nadyanay.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1479964647,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1479964493,
+        "hash": "bb0eb3180642fa5ce7a7f68e837fb439b0d2d6442adf7f9a734bc26cbeb74ce8bbb3b54700e6fa7c3105ea2f593489acb564142de34a55f3a0ae4c056a91d11e",
+        "seqno": 732598
+    },
+    "prev": "a100c7044581ad9bf7b1babc31bc47f5bb03eb83bd7015e74bd732e9676811ae",
+    "seqno": 15,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5U90JRjWbzLQnLj6YLZjNpRmYzubMjGPQ+bhMBqHD70Kp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWJiYTc1YzM3NWQ5NDFlNjg4YTlhYTA3NmIyMmJiMjJmNDcxOTNiNzEwMTk2M2Y5M2I2ZDk1ZThkM2RmMjQ4ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTU0Zjc0MjUxOGQ2NmYzMmQwOWNiOGZhNjBiNjYzMzY5NDY2NjMzYjliMzIzMThmNDNlNmUxMzAxYTg3MGZiZDBhIiwidWlkIjoiNDJmZjhiNDIwNjMzNmQ5ZTE4OWUxYTk3NTBjMDM1MTkiLCJ1c2VybmFtZSI6Im5hZHlhIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJuYWR5YW5heS5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDc5OTY0NjQ3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Nzk5NjQ0OTMsImhhc2giOiJiYjBlYjMxODA2NDJmYTVjZTdhN2Y2OGU4MzdmYjQzOWIwZDJkNjQ0MmFkZjdmOWE3MzRiYzI2Y2JlYjc0Y2U4YmJiM2I1NDcwMGU2ZmE3YzMxMDVlYTJmNTkzNDg5YWNiNTY0MTQyZGUzNGE1NWYzYTBhZTRjMDU2YTkxZDExZSIsInNlcW5vIjo3MzI1OTh9LCJwcmV2IjoiYTEwMGM3MDQ0NTgxYWQ5YmY3YjFiYWJjMzFiYzQ3ZjViYjAzZWI4M2JkNzAxNWU3NGJkNzMyZTk2NzY4MTFhZSIsInNlcW5vIjoxNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC4LWFe/Kbv8CJU3I2R3hBk/ZOZALELlMjpaGO+tPXL+DiP7paNM8lCrhiEQ6kLmuyFJ+zpAu3e+wyAmApU27MDqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgdO6ewp2FWQ4+gCkHSOY/JU0vfZJWCFouc0MN2EkKa9ijdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nadya
+
+==================================================================

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: SofiaPro;
+    src: url('SOFIAPROLIGHT.OTF');
+}
+
+body {
+  font-family: 'SofiaPro', 'Meiryo', sans-serif;
+  background-color: #fefef8;
+}
+
+h1 { 
+  color: #333;
+  font-size: 3.157em;
+}
+
+h2 {
+  color: #333;
+  font-size: 2.369em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: dotted 1px #767a73;
+  color: #57799e;
+  transition: .3s ease;
+}
+
+/* a */.image {
+  border-bottom: none;
+}
+
+a:visited {
+  color: #7b80a2;
+}
+
+a:hover {
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+}
+
+p {
+  font-size: 1.333em;
+  line-height: 1.333;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: .2em;
+}
+
+img {
+  max-width: 31em;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 47em;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.fav {
+  font-weight: bold;
+}
+
+.fav-artist, .fav-series {
+  color: #a27b9d;
+}
+
+.fav-album {
+  color: #bf7c83;
+}
