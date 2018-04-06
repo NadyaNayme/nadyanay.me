@@ -9,6 +9,8 @@ var uncache = require("gulp-uncache");
 var htmlmin = require("gulp-htmlmin");
 var imagemin = require("gulp-imagemin");
 var sriHash = require("gulp-sri-hash");
+var imageResize = require("gulp-image-resize");
+var rename = require("gulp-rename");
 
 var src = "src/";
 var build = "public/";
@@ -31,6 +33,22 @@ gulp.task("minify-html", function() {
     .pipe(gulp.dest(build));
 });
 
+gulp.task("generate-thumbnails", function() {
+  gulp
+    .src([src + "assets/images/desktop.png", src + "assets/images/laptop.png"])
+    .pipe(
+      imageResize({
+        width: 496
+      })
+    )
+    .pipe(
+      rename(function(path) {
+        path.basename += "-thumbnail";
+      })
+    )
+    .pipe(gulp.dest(src + "assets/images/"));
+});
+
 gulp.task("optimize-images", function() {
   return gulp
     .src(src + "assets/images/**/*")
@@ -50,7 +68,13 @@ gulp.task("copy", function() {
 
 gulp.task(
   "build",
-  ["minify-css", "minify-html", "optimize-images", "copy"],
+  [
+    "generate-thumbnails",
+    "minify-css",
+    "minify-html",
+    "optimize-images",
+    "copy"
+  ],
   function() {
     process.chdir(src);
 
