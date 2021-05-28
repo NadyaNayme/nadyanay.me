@@ -1,6 +1,13 @@
 # Nadyanay.me
 
-Personal website handwritten with public facing files being ran through Gulp. Gulp is set up to minify the CSS and HTML, sign the CSS for integrity checking, and minimize all of my images.
+Personal website handwritten with public facing files being optimized using NPM Scripts.
+
+## To Do
+
+-   Redesigning site slightly
+-   Adding a blog/place for thoughts
+-   Updating Music and Anime recommendations
+-   Figure out how to do SRI via NPM Scripts now that I've replaced the old Gulp setup since everything broke over the past few years.
 
 ## Privacy
 
