@@ -14,7 +14,7 @@
 		"buildblog": "cd ./src/blog/ && wintersmith build",
 		"buildfiles": "npm run buildblog && npm run css && npm run blogcss && npm run fakeblogcss && npm run html",
 		"buildimages": "npm run images && npm run blogimages",
-		"buildall": "npm run css && npm run blogcss && npm run html && npm run images && npm run blogimages"
+		"buildall": "npm run buildfiles && npm run buildimages"
 	},
 	"devDependencies": {
 		"clean-css-cli": "^5.3.0",
