@@ -7,7 +7,7 @@ Personal website handwritten with public facing files being optimized using NPM 
 -   Redesigning site slightly
 -   Adding a blog/place for thoughts
 -   Updating Music and Anime recommendations
--   Figure out how to do SRI via NPM Scripts now that I've replaced the old Gulp setup since everything broke over the past few years.
+-   ~~Figure out how to do SRI via NPM Scripts now that I've replaced the old Gulp setup since everything broke over the past few years.~~ Is Gulp seriously the only easy way to automatically add SRI to HTML files in 2021? I'd still like to remove the dependency in the buildchain but it'll do for now.
 
 ## Privacy
 
