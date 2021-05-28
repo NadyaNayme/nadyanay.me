@@ -1,4 +1,4 @@
-const { gulp, src, dest } = require('gulp');
+const { series, src, dest } = require('gulp');
 const htmlnano = require('gulp-htmlnano');
 const sriHash = require('gulp-sri-hash');
 
@@ -7,15 +7,14 @@ const nanoOptions = {
 	collapseWhitespace: 'aggressive',
 };
 
-sriHash();
-
-exports.default = function () {
+function minify() {
 	return src('./src/*.html')
 		.pipe(htmlnano(nanoOptions))
-		.pipe(
-			sriHash({
-				algo: 'sha512',
-			})
-		)
 		.pipe(dest('./public'));
-};
+}
+
+function sri() {
+	return src('./public/*.html').pipe(sriHash({algo: 'sha512',})).pipe(dest('./public'))
+}
+
+exports.default = series(minify, sri);

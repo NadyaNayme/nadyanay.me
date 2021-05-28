@@ -5,7 +5,7 @@
 	"author": "NN <admin@aishitei.ru>",
 	"license": "MIT",
 	"scripts": {
-		"css": "cleancss -o ./public/assets/css/style.css ./src/assets/css/style.css",
+		"css": "cleancss -o ./public/assets/css/style.css ./src/assets/css/style.css --format 'breakWith:lf'",
 		"html": "gulp",
 		"images": "imagemin ./src/assets/images --out-dir ./public/img -p",
 		"buildall": "npm run css && npm run html && npm run images"
