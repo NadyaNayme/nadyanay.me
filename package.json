@@ -6,19 +6,16 @@
 	"license": "MIT",
 	"scripts": {
 		"css": "cleancss -o ./public/assets/css/style.css ./src/assets/css/style.css",
-		"html": "html-minifier --input-dir ./src --output-dir ./public --collapse-boolean-attributes --collapse-whitespace --remove-attribute-quotes --remove-redundant-attributes --sort-attributes --use-short-doctype --file-ext html",
-		"sri": "gulp",
+		"html": "gulp",
 		"images": "imagemin ./src/assets/images --out-dir ./public/img -p",
-		"buildall": "npm run css && npm run html && npm run sri && npm run images"
-	},
-	"dependencies": {
-		"clean-css-cli": "^5.3.0",
-		"gulp-cli": "^2.3.0"
+		"buildall": "npm run css && npm run html && npm run images"
 	},
 	"devDependencies": {
+		"clean-css-cli": "^5.3.0",
 		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
+		"gulp-htmlnano": "^0.1.0",
 		"gulp-sri-hash": "^2.2.1",
-		"html-minifier": "^4.0.0",
 		"imagemin-cli": "^6.0.0"
 	}
 }
