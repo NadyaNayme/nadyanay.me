@@ -1,4 +1,5 @@
 @font-face{font-family:SofiaPro;src:url("/assets/font/SOFIAPROLIGHT.OTF")}
+@font-face{font-family:Cozette;src:url("/assets/font/COZETTEVECTOR.OTF")}
 
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   margin: 0; padding: 0; border: 0;
@@ -268,7 +269,7 @@ footer .copy a {
 /* code styling */
 
 code {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: Cozette, monospace;
   font-size: 0.85em;
   color: #000;
 }
