@@ -12,6 +12,10 @@ sriHash();
 exports.default = function () {
 	return src('./src/*.html')
 		.pipe(htmlnano(nanoOptions))
-		.pipe(sriHash())
+		.pipe(
+			sriHash({
+				algo: 'sha512',
+			})
+		)
 		.pipe(dest('./public'));
 };
