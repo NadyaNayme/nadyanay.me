@@ -6,16 +6,26 @@
 	"license": "MIT",
 	"scripts": {
 		"css": "cleancss -o ./public/assets/css/style.css ./src/assets/css/style.css --format 'breakWith:lf'",
+		"blogcss": "cleancss -o ./public/assets/css/blog.css ./src/blog/build/css/main.css --format 'breakWith:lf'",
+		"fakeblogcss": "cleancss -o ./public/blog/assets/css/blog.css ./src/blog/build/css/main.css --format 'breakWith:lf'",
 		"html": "gulp",
 		"images": "imagemin ./src/assets/images --out-dir ./public/img -p",
-		"buildall": "npm run css && npm run html && npm run images"
+		"blogimages": "imagemin ./src/blog/contents/images --out-dir ./public/blog/contents/images -p",
+		"buildblog": "cd ./src/blog/ && wintersmith build",
+		"buildfiles": "npm run buildblog && npm run css && npm run blogcss && npm run fakeblogcss && npm run html",
+		"buildimages": "npm run images && npm run blogimages",
+		"buildall": "npm run css && npm run blogcss && npm run html && npm run images && npm run blogimages"
 	},
 	"devDependencies": {
 		"clean-css-cli": "^5.3.0",
+		"event-stream": "^4.0.1",
 		"gulp": "^4.0.2",
 		"gulp-cli": "^2.3.0",
 		"gulp-htmlnano": "^0.1.0",
 		"gulp-sri-hash": "^2.2.1",
 		"imagemin-cli": "^6.0.0"
+	},
+	"dependencies": {
+		"wintersmith": "^2.5.0"
 	}
 }

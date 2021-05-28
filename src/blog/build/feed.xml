@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Not a Blog</title>
+    <atom:link href="https://nadyanay.me/blog/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>https://nadyanay.me/blog</link>
+    <description>A place to store my thoughts and write about things.</description>
+    <pubDate>Fri, 28 May 2021 12:00:00 -0700</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Keeping up with the (J)one(S).</title>
+      <link>https://nadyanay.me/blog/articles/2021-08-May/</link>
+      <pubDate>Fri, 28 May 2021 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://nadyanay.me/blog/articles/2021-08-May/</guid>
+      <author>Nadya Nayme</author>
+      <description>&lt;p&gt;I’ve recently decided to update my personal website after it has sat without change for nearly three years. In the process I’ve discovered that if you are not constantly on top of keeping the underlying technologies up-to-date that you are almost better off burning everything to the ground and starting from scratch.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to remove Gulp as a build dependency, so I looked at the modern “winners” in this area such as &lt;a href=&quot;https://webpack.js.org/&quot; rel=&quot;external noreferrer&quot;&gt;WebPack&lt;/a&gt; and &lt;a href=&quot;https://parceljs.org/&quot; rel=&quot;external noreferrer&quot;&gt;Parcel&lt;/a&gt; and even trying to use &lt;code&gt;NPM scripts&lt;/code&gt; as a replacement. Maybe I didn’t read the documentation for WebPack and Parcel closely enough but I couldn’t get either to do what I needed it to do and the setup and configuration needed was far more complex than Gulp for my needs. The tools seem designed more in mind for JS Framework SPA’s than they are for braindead asset generating.&lt;/p&gt;
+&lt;p&gt;And so I went back to Gulp… Though I am no longer running Node V10 and am using Node V16 and Node V12 introduced a bunch of breaking changes apparently as any up-to-date package requires Node V12+ and Gulp also changed quite a bit going from V3 to V4 and some fo the packages I used were no longer maintained and the list goes on and on. With a bit of Googling around for packages I found the tools I needed.&lt;/p&gt;
+&lt;p&gt;Then I decide I wanted a blog. But to easily manage a blog I needed a static-site generator. But I also need this generator to be unobtrusive with my existing build setup. I’ve used &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external noreferrer&quot;&gt;Hexo.io&lt;/a&gt; a while back for some work-related things. I may end up going back to it for the benefit of blog categories and tags but Hexo setup is a lot more involved than I wanted to get my blog up and running. In the end I went with &lt;a href=&quot;http://wintersmith.io/&quot; rel=&quot;external noreferrer&quot;&gt;Wintersmith.io&lt;/a&gt;. With almost no configuration needed this blog was up-and-running.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
