@@ -10,7 +10,7 @@
 		"fakeblogcss": "cleancss -o ./public/blog/assets/css/blog.css ./src/blog/build/css/main.css --format 'breakWith:lf'",
 		"html": "gulp",
 		"images": "imagemin ./src/assets/images --out-dir ./public/img -p",
-		"javascript": "uglifyjs ./src/assets/js/name.js -o name.min.js -c -m",
+		"javascript": "uglifyjs ./src/assets/js/name.js -o ./public/assets/js/name.min.js --compress --mangle --toplevel",
 		"blogimages": "imagemin ./src/blog/contents/images --out-dir ./public/blog/contents/images -p",
 		"buildblog": "cd ./src/blog/ && wintersmith build",
 		"buildfiles": "npm run buildblog && npm run css && npm run blogcss && npm run fakeblogcss && npm run javascript && npm run html",
