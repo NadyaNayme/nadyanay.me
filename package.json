@@ -10,9 +10,10 @@
 		"fakeblogcss": "cleancss -o ./public/blog/assets/css/blog.css ./src/blog/build/css/main.css --format 'breakWith:lf'",
 		"html": "gulp",
 		"images": "imagemin ./src/assets/images --out-dir ./public/img -p",
+		"javascript": "uglifyjs ./src/assets/js/name.js -o name.min.js -c -m",
 		"blogimages": "imagemin ./src/blog/contents/images --out-dir ./public/blog/contents/images -p",
 		"buildblog": "cd ./src/blog/ && wintersmith build",
-		"buildfiles": "npm run buildblog && npm run css && npm run blogcss && npm run fakeblogcss && npm run html",
+		"buildfiles": "npm run buildblog && npm run css && npm run blogcss && npm run fakeblogcss && npm run javascript && npm run html",
 		"buildimages": "npm run images && npm run blogimages",
 		"buildall": "npm run buildfiles && npm run buildimages"
 	},
@@ -26,6 +27,7 @@
 		"imagemin-cli": "^6.0.0"
 	},
 	"dependencies": {
+		"uglify-js": "^3.13.9",
 		"wintersmith": "^2.5.0"
 	}
 }
