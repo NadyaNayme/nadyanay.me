@@ -1,7 +1,7 @@
 h1,
 h2,
 p {
-  color: #333;
+  color: #4c4c4c;
 }
 @font-face {
   font-family: "SofiaPro";
@@ -13,6 +13,7 @@ body {
 }
 h1 {
   font-size: 3.157em;
+  text-align: center;
 }
 h2 {
   font-size: 2.369em;
@@ -47,11 +48,6 @@ img {
   max-width: 31em;
   height: auto;
 }
-.wrapper {
-  max-width: 47em;
-  margin: 0 auto;
-  padding: 3em 0;
-}
 .fav {
   font-weight: 700;
 }
@@ -59,6 +55,33 @@ img {
 .fav-series {
   color: #a27b9d;
 }
-.fav-album {
-  color: #bf7c83;
+.full {
+  width: 100%;
+}
+.f_m-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+}
+.f_m-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.f_m-a li {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .f_m-a {
+    flex-wrap: wrap;
+  }
+  .f_m-a li {
+    width: 100%;
+    text-align: center;
+  }
 }
