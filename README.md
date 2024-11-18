@@ -4,10 +4,12 @@ Personal website with all public facing files being generated to a static websit
 
 ## To Do
 
--   Redesigning site slightly
--   ~~Adding a blog/place for thoughts~~ Added using [Wintermsith][1] to generate the blog before running it through my build scripts for minification.
--   Updating Music and Anime recommendations
--   ~~Figure out how to do SRI via NPM Scripts now that I've replaced the old Gulp setup since everything broke over the past few years.~~ Is Gulp seriously the only easy way to automatically add SRI to HTML files in 2021? I'd still like to remove the dependency in the buildchain but it'll do for now.
+-  Write my own static-site generator so I can finally abandon NPM, Gulp, and Wintersmith and my super janky build process.
+
+
+## Building
+
+This is primarily for future me. Read packaage.json and cry.
 
 ## Privacy
 

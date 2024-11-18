@@ -22,5 +22,6 @@
   },
   "paginator": {
     "perPage": 5
-  }
+  },
+  "baseUrl": "/blog/"
 }
